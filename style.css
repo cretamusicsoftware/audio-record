@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #1e1e1e, #000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .recorder {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    width: 320px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+  }
+  
+  button {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+  }
+  
+  #recordBtn {
+    background: linear-gradient(145deg, #ff4d4d, #b30000);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(255, 77, 77, 0.6);
+  }
+  
+  #stopBtn {
+    background: linear-gradient(145deg, #4dd2ff, #006b99);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(77, 210, 255, 0.6);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  #downloadLink {
+    display: none;
+    margin-top: 1rem;
+    color: #4dd2ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  

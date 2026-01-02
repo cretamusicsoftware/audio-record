@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio Recorder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="recorder">
+    <h1>🎙️ Audio Recorder</h1>
+
+    <div class="controls">
+      <button id="recordBtn">● Record</button>
+      <button id="stopBtn" disabled>■ Stop</button>
+    </div>
+
+    <audio id="audioPlayer" controls></audio>
+
+    <a id="downloadLink" download="recording.webm">⬇ Download</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
