@@ -21,4 +21,4 @@ A simple **browser-based audio recorder** built with **HTML, CSS, and JavaScript
 Built to learn **microphone access**, **audio recording**, and **Blob-based playback** in the browser.
 
 🎧
-![preview img](/Estely-12-12-2025.png)
+![preview img](/Audio-Recorder-01-02-2026.png)
